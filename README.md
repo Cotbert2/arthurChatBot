@@ -16,6 +16,10 @@ Also include a desktop application that uses the same chatbot model to interact 
 You can go to the only-frontent-repo [here](https://github.com/Cotbert2/SimpleChatBotlnterface).
 
 
+### Service
+
+![Service](./guide/services.png)
+
 ## Installation
 
 First setup the python virtual environment by running the following command:
