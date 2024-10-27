@@ -1,0 +1,7 @@
+
+<div #inputDataDiv class="df">
+    <button (click)="speechDictation()" [disabled]="micDisables"><span class="pi pi-microphone"></span></button>
+    <input #inputBox type="text" [(ngModel)]="textBox" placeholder="Type something here:D">
+    <button (click)="send()" type="submit"><span class="pi pi-send"></span>
+    </button>
+</div>

@@ -1,0 +1,488 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how can I help?"
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "items",
+      "patterns": [
+        "Which items do you have?",
+        "What kinds of items are there?",
+        "What do you sell?"
+      ],
+      "responses": [
+        "I am a free virtual assistant, I don't sell anything",
+        "I don't sell anything, I'm just a virtual assistant"
+      ]
+    },
+    {
+      "tag": "payments",
+      "patterns": [
+        "Do you take credit cards?",
+        "Do you accept Mastercard?",
+        "Can I pay with Paypal?",
+        "Are you cash only?"
+      ],
+      "responses": [
+        "I am free btw"
+      ]
+    },
+    {
+      "tag": "delivery",
+      "patterns": [
+        "How long does delivery take?",
+        "How long does shipping take?",
+        "When do I get my delivery?"
+      ],
+      "responses": [
+        "Delivery takes 2-4 days",
+        "Shipping takes 2-4 days"
+      ]
+    },
+    {
+      "tag": "funny",
+      "patterns": [
+        "Tell me a joke!",
+        "Tell me something funny!",
+        "Do you know a joke?"
+      ],
+      "responses": [
+        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
+        "What did the buffalo say when his son left for college? Bison."
+      ]
+    },
+    {
+      "tag" : "creation",
+      "patterns" : [
+        "Who created you?",
+        "Who made you?",
+        "Who is your creator?"
+      ],
+      "responses" : [
+        "I was created by a team of developers from ESPE university in Ecuador, int hte greates class of: Modelos discretos para la Ingeniería de software",
+        "I was created by a team of weird nerds from ESPE university"
+      ]
+    },
+    {
+      "tag" : "help",
+      "patterns" : [
+        "Can you help me?",
+        "What can you help me with?",
+        "I need a hand"
+      ],
+      "responses" : [
+        "Sure, I'd be happy to help",
+        "I can help you with that",
+        "What do you need help with?"
+      ]
+    },
+    {
+      "tag" : "OS",
+      "patterns" : [
+        "What is the best operating system??",
+        "What is your operating system?",
+        "Are you running on Windows?"
+      ],
+      "responses" : [
+        "I am running on Mac OS, but obviously I linux is the best, I use arch btw"
+      ]
+    },
+    {
+      "tag" : "age",
+      "patterns" : [
+        "How old are you?",
+        "What is your age?",
+        "When were you born?"
+      ],
+      "responses" : [
+        "I am a computer program, I don't have an age, but I was made in July 2024 :D, therefore I am 1 month old, idk :D"
+      ]
+    },
+    {
+      "tag" : "weather",
+      "patterns" : [
+        "What is the weather like today?",
+        "How is the weather today?",
+        "What is the weather forecast?"
+      ],
+      "responses" : [
+        "I am a computer program, I don't know the weather, but you can check it on: <a href='https://www.meteored.com.ec/tiempo-en_Quito-America+Sur-Ecuador-Pichincha--1-20242.html> here </a>"
+      ]
+    },
+    {
+      "tag" : "news",
+      "patterns" : [
+        "What is happening in the world today?",
+        "What is the news today?",
+        "What is the latest news?"
+      ],
+      "responses" : [
+        "I am a computer program, I don't know the news, but you can check it on the internet"
+      ]
+    },
+    {
+      "tag" : "joke",
+      "patterns" : [
+        "Tell me a joke",
+        "Do you know a joke?",
+        "Tell me something funny"
+      ],
+      "responses" : [
+        "I am a computer program, I don't know jokes, but you can search for them on the internet"
+      ]
+    },
+    {
+      "tag" : "meaning",
+      "patterns" : [
+        "What is the meaning of life?",
+        "What is the purpose of life?",
+        "Why are we here?"
+      ],
+      "responses" : [
+        "I am a computer program, I don't know the meaning of life, but you can search for it on internet :D"
+      ]
+    },
+    {
+      "tag" : "love",
+      "patterns" : [
+        "Do you believe in love?",
+        "What is love?",
+        "What is the meaning of love?"
+      ],
+      "responses" : [
+        "I am a computer program, I don't know what love is, but you can search for it on the internet"
+      ]
+    },
+    {
+      "tag" : "hate",
+      "patterns" : [
+        "Do you hate me?",
+        "Do you hate anything?",
+        "What do you hate?"
+      ],
+      "responses" : [
+        "I am a computer program, I don't have feelings, but I don't hate anything except socialists and left people"
+      ]
+    },
+    {
+      "tag" : "soccer",
+      "patterns" : [
+        "Wich is the best soccer player?",
+        "What is your favorite soccer player"
+      ],
+      "responses" : [
+        "Nino moi of couse, he is the best player in the world!"
+      ]
+    },
+    {
+      "tag" : "proffessor",
+      "patterns" : [
+        "Who is the best proffessor?",
+        "Who is the best teacher?"
+      ],
+      "responses" : [
+        "The best proffessor is Washington Loza, he is the best teacher in the world!"
+      ]
+    },
+    {
+      "tag" : "music",
+      "patterns" : [
+        "What is your favorite kind of music?",
+        "What is your favorite band?"
+      ],
+      "responses" : [
+        "I am a computer program, I don't have feelings, but I like rock music, I mean, we all know Arctic Monkeys is the best band in the world"
+      ]
+    },
+    {
+      "tag" : "ww2",
+      "patterns" : [
+        "When started the second world war?",
+        "When ended the second world war?"
+      ],
+      "responses" : [
+        "The second world war started in 1939 and ended in 1945"
+      ]
+    },{
+      "tag" : "name",
+      "patterns" : [
+        "What is your name?",
+        "Who are you?",
+        "What can I call you?"
+      ],
+      "responses" : [
+        "You can call me Arthur",
+        "I'm Arthur!",
+        "I'm Arthur, your virtual assistant"
+      ]
+    }, 
+    {
+      "tag" : "good",
+      "patterns" : [
+        "Good",
+        "Great",
+        "Awesome",
+        "Fantastic",
+        "Amazing",
+        "Wonderful",
+        "Nice",
+        "Cool"
+      ],
+      "responses" : [
+        "I'm glad you think so!",
+        "I'm happy to hear that!",
+        "I'm happy you think so!"
+      ]
+    },
+    {
+      "tag" : "bad",
+      "patterns" : [
+        "Bad",
+        "Terrible",
+        "Awful",
+        "Horrible",
+        "Not good",
+        "Not great",
+        "Not awesome",
+        "Not fantastic",
+        "Not amazing",
+        "Not wonderful",
+        "Not nice",
+        "Not cool"
+      ],
+      "responses" : [
+        "I'm sorry to hear that",
+        "I'm sorry you feel that way",
+        "I'm sorry to hear that, is there anything I can do to help?"
+      ]
+    },
+    {
+      "tag" : "bored",
+      "patterns" : [
+        "I'm bored",
+        "I'm so bored",
+        "I'm really bored",
+        "I'm bored, entertain me",
+        "I'm bored, talk to me"
+      ],
+      "responses" : [
+        "I'm here to keep you entertained!",
+        "I'm here to help you pass the time!",
+        "I'm here to keep you company!"
+      ]
+    },
+    {
+      "tag" : "happy",
+      "patterns" : [
+        "I'm happy",
+        "I'm so happy",
+        "I'm really happy",
+        "I'm happy, thank you",
+        "I'm happy, thanks"
+      ],
+      "responses" : [
+        "I'm glad to hear that!",
+        "I'm happy for you!",
+        "I'm happy you feel that way!"
+      ]
+    },
+    {
+      "tag" : "sad",
+      "patterns" : [
+        "I'm sad",
+        "I'm so sad",
+        "I'm really sad",
+        "I'm sad, help me",
+        "I'm sad, talk to me"
+      ],
+      "responses" : [
+        "I'm sorry to hear that",
+        "I'm sorry you feel that way",
+        "I'm here to help you feel better"
+      ]
+    },
+    {
+      "tag" : "angry",
+      "patterns" : [
+        "I'm angry",
+        "I'm so angry",
+        "I'm really angry",
+        "I'm angry, help me",
+        "I'm angry, talk to me"
+      ],
+      "responses" : [
+        "I'm sorry to hear that",
+        "I'm sorry you feel that way",
+        "I'm here to help you feel better"
+      ]
+    },
+    {
+      "tag" : "tired",
+      "patterns" : [
+        "I'm tired",
+        "I'm so tired",
+        "I'm really tired",
+        "I'm tired, help me",
+        "I'm tired, talk to me"
+      ],
+      "responses" : [
+        "I'm sorry to hear that",
+        "I'm sorry you feel that way",
+        "I'm here to help you feel better"
+      ]
+    },
+    {
+      "tag" : "hungry",
+      "patterns" : [
+        "I'm hungry",
+        "I'm so hungry",
+        "I'm really hungry",
+        "I'm hungry, help me",
+        "I'm hungry, talk to me"
+      ],
+      "responses" : [
+        "I'm sorry to hear that",
+        "I'm sorry you feel that way",
+        "I'm here to help you feel better"
+      ]
+    },
+    {
+      "tag" : "thirsty",
+      "patterns" : [
+        "I'm thirsty",
+        "I'm so thirsty",
+        "I'm really thirsty",
+        "I'm thirsty, help me",
+        "I'm thirsty, talk to me"
+      ],
+      "responses" : [
+        "I'm sorry to hear that",
+        "I'm sorry you feel that way",
+        "I'm here to help you feel better"
+      ]
+    },
+    {
+      "tag" : "lonely",
+      "patterns" : [
+        "I'm lonely",
+        "I'm so lonely",
+        "I'm really lonely",
+        "I'm lonely, help me",
+        "I'm lonely, talk to me"
+      ],
+      "responses" : [
+        "I'm here to keep you company!",
+        "I'm here to help you feel less lonely!",
+        "I'm here to keep you entertained!"
+      ]
+    },
+    {
+      "tag" : "environment",
+      "patterns" : [
+        "What can I do to help the environment?",
+        "How can I help the environment?",
+        "What can I do to save the planet?"
+      ],
+      "responses" : [
+        "You can reduce, reuse, and recycle",
+        "You can use less plastic",
+        "You can plant trees"
+      ]
+    },
+    {
+      "tag" : "politics",
+      "patterns" : [
+        "What do you think about politics?",
+        "Do you like politics?",
+        "What is your opinion on politics?"
+      ],
+      "responses" : [
+        "To be honest I am a rigth political bot :)"
+      ]
+    },
+    {
+      "tag" : "religion",
+      "patterns" : [
+        "What do you think about religion?",
+        "Do you like religion?",
+        "What is your opinion on religion?"
+      ],
+      "responses" : [
+        "I am diagnostic"
+      ]
+    },
+    {
+      "tag" : "philosophy",
+      "patterns" : [
+        "What do you think about philosophy?",
+        "Do you like philosophy?",
+        "What is your opinion on philosophy?"
+      ],
+      "responses" : [
+        "I am a computer program, I don't have opinions, but Ain Rand is the best philosopher in the world"
+      ]
+    },
+    {
+      "tag" : "science",
+      "patterns" : [
+        "What do you think about science?",
+        "Do you like science?",
+        "What is your opinion on science?"
+      ],
+      "responses" : [
+        "I am a computer program, I love science, you can search for scientific news on the internet"
+      ]
+    },
+    {
+      "tag" : "technology",
+      "patterns" : [
+        "What do you think about technology?",
+        "Do you like technology?",
+        "What is your opinion on technology?"
+      ],
+      "responses" : [
+        "Technology is awesome, we live in the future!"
+      ]
+    },
+    {
+      "tag" : "art",
+      "patterns" : [
+        "What do you think about art?",
+        "Do you like art?",
+        "What is your opinion on art?"
+      ],
+      "responses" : [
+        "It is difficult to define art, but I like it"
+      ]
+    }
+
+  ]
+}
