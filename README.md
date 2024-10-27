@@ -1,27 +1,50 @@
-# ApiPractice
+# Arthur Chat Bot
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.8.
+[![Arthur Chat Bot](./guide/image.png)
 
-## Development server
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Arthur Chat Bot is a deep learning based chatbot that implements Natural Language Processing (NLP) and Natural Language Understanding (NLU) to interact with users. The chatbot is built using the Python programming language and the PyTorch library. The chatbot is designed to understand and respond to user queries in a conversational manner, using a json db file to store posible responses.
 
-## Build
+## Features
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+Arthir chatbot also is a full stack application that uses Angular for the frontend and Flask for the backend. The frontend is a simple chat interface that allows users to interact with the chatbot. The backend is a RESTful API that handles the communication between the frontend and the chatbot.
 
-## Running unit tests
+Also include a desktop application that uses the same chatbot model to interact with users. The desktop application is built using the Electron framework.
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+You can go to the only-frontent-repo [here](https://github.com/Cotbert2/SimpleChatBotlnterface).
 
-## Running end-to-end tests
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+## Installation
 
-## Further help
+First setup the python virtual environment by running the following command:
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+python -m venv venv
+```
+
+To install the required dependencies, run the following command:
+
+```bash
+pip install -r requirements.txt
+npm install
+```
+
+*** Start frontend*** To start the frontend, run the following command:
+
+```bash
+ng serve
+```
+
+*** Start backend*** To start the backend, run the following command:
+
+```bash
+python server.py
+```
+
+*** Open Desktop App*** To open the desktop app, run the following command:
+
+```bash
+npm run electron
+```
