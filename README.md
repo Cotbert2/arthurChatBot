@@ -1,6 +1,6 @@
 # Arthur Chat Bot
 
-[![Arthur Chat Bot](./guide/image.png)
+![Arthur Chat Bot](./guide/image.png)
 
 
 
